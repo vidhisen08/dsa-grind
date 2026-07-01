@@ -11,4 +11,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/vidhisen08/dsa-grind/tree/master/0019-remove-nth-node-from-end-of-list) |
+## Hash Table
+|  |
+| ------- |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/vidhisen08/dsa-grind/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+## String
+|  |
+| ------- |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/vidhisen08/dsa-grind/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+## Sliding Window
+|  |
+| ------- |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/vidhisen08/dsa-grind/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 <!---LeetCode Topics End-->
