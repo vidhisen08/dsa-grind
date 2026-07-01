@@ -23,4 +23,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/vidhisen08/dsa-grind/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+## Math
+|  |
+| ------- |
+| [0009-palindrome-number](https://github.com/vidhisen08/dsa-grind/tree/master/0009-palindrome-number) |
 <!---LeetCode Topics End-->
