@@ -27,4 +27,28 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/vidhisen08/dsa-grind/tree/master/0009-palindrome-number) |
+## Array
+|  |
+| ------- |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/vidhisen08/dsa-grind/tree/master/2812-find-the-safest-path-in-a-grid) |
+## Binary Search
+|  |
+| ------- |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/vidhisen08/dsa-grind/tree/master/2812-find-the-safest-path-in-a-grid) |
+## Breadth-First Search
+|  |
+| ------- |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/vidhisen08/dsa-grind/tree/master/2812-find-the-safest-path-in-a-grid) |
+## Union-Find
+|  |
+| ------- |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/vidhisen08/dsa-grind/tree/master/2812-find-the-safest-path-in-a-grid) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/vidhisen08/dsa-grind/tree/master/2812-find-the-safest-path-in-a-grid) |
+## Matrix
+|  |
+| ------- |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/vidhisen08/dsa-grind/tree/master/2812-find-the-safest-path-in-a-grid) |
 <!---LeetCode Topics End-->
