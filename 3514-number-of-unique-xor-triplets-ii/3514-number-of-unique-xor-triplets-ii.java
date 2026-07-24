@@ -2,21 +2,47 @@ class Solution {
     public int uniqueXorTriplets(int[] nums) {
         int n = nums.length;
 
-        // store all pair xor
-        HashSet<Integer> set = new HashSet<>();
+        // Find maximum element
+        int max = nums[0];
         for(int i=0;i<n;i++){
-            for(int j=i;j<n;j++){
-                set.add(nums[i] ^ nums[j]);
+            if(nums[i]>max){
+                max = nums[i];
+            }
+        }
+       
+
+        // Find next power of 2 greater than max
+        int size = 1;
+        while (size <= max) {
+            size*=2;
+        }
+
+        boolean[] pair = new boolean[size];
+        boolean[] ans = new boolean[size];
+
+        // Store all possible XORs of two elements
+        for (int i = 0; i < n; i++) {
+            for (int j = i; j < n; j++) {
+                pair[nums[i] ^ nums[j]] = true;
             }
         }
 
-        // find xor triplets
-        HashSet<Integer> pairXor = new HashSet<>();
-        for(int pair: set){   // using foreach cuz sets don't store elements by index
-            for(int x: nums){
-                pairXor.add(pair ^ x);
+        // XOR every pair XOR with every element
+        for (int x = 0; x < size; x++) {
+            if (!pair[x]){
+                continue;
+            } 
+            for (int num : nums) {
+                ans[x ^ num] = true;
             }
         }
-        return pairXor.size();
+
+        // Count unique XOR values
+        int count = 0;
+        for (boolean b : ans) {
+            if (b) count++;
+        }
+
+        return count;
     }
 }
