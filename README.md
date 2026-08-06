@@ -145,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/vidhisen08/dsa-grind/tree/master/0144-binary-tree-preorder-traversal) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/vidhisen08/dsa-grind/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2685-count-the-number-of-complete-components](https://github.com/vidhisen08/dsa-grind/tree/master/2685-count-the-number-of-complete-components) |
 ## Recursion
@@ -218,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/vidhisen08/dsa-grind/tree/master/0144-binary-tree-preorder-traversal) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/vidhisen08/dsa-grind/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 ## Monotonic Stack
 |  |
@@ -231,4 +233,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/vidhisen08/dsa-grind/tree/master/3517-smallest-palindromic-rearrangement-i) |
+## Tree
+|  |
+| ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/vidhisen08/dsa-grind/tree/master/0144-binary-tree-preorder-traversal) |
+## Binary Tree
+|  |
+| ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/vidhisen08/dsa-grind/tree/master/0144-binary-tree-preorder-traversal) |
 <!---LeetCode Topics End-->
