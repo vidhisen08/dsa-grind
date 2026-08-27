@@ -263,6 +263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/vidhisen08/dsa-grind/tree/master/0145-binary-tree-postorder-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/vidhisen08/dsa-grind/tree/master/0543-diameter-of-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/vidhisen08/dsa-grind/tree/master/0662-maximum-width-of-binary-tree) |
+| [0700-search-in-a-binary-search-tree](https://github.com/vidhisen08/dsa-grind/tree/master/0700-search-in-a-binary-search-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -277,9 +278,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/vidhisen08/dsa-grind/tree/master/0145-binary-tree-postorder-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/vidhisen08/dsa-grind/tree/master/0543-diameter-of-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/vidhisen08/dsa-grind/tree/master/0662-maximum-width-of-binary-tree) |
+| [0700-search-in-a-binary-search-tree](https://github.com/vidhisen08/dsa-grind/tree/master/0700-search-in-a-binary-search-tree) |
 ## DP on Trees
 |  |
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/vidhisen08/dsa-grind/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0543-diameter-of-binary-tree](https://github.com/vidhisen08/dsa-grind/tree/master/0543-diameter-of-binary-tree) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0700-search-in-a-binary-search-tree](https://github.com/vidhisen08/dsa-grind/tree/master/0700-search-in-a-binary-search-tree) |
 <!---LeetCode Topics End-->
