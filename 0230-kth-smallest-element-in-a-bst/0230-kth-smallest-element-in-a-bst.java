@@ -15,16 +15,50 @@
  */
 class Solution {
     public int kthSmallest(TreeNode root, int k) {
-        List<Integer> result = new ArrayList<>();
-        traverse(root,result);
-        return result.get(k-1);                  
-    }
-    public void traverse(TreeNode node, List<Integer> result){
-        if(node==null){
-            return ; 
+
+        TreeNode curr = root;
+        int count = 0;
+
+        while (curr != null) {
+
+            // No left subtree
+            if (curr.left == null) {
+                count++;
+
+                if (count == k)
+                    return curr.val;
+
+                curr = curr.right;
+            }
+
+            // Left subtree exists
+            else {
+                // Find inorder predecessor
+                TreeNode pred = curr.left;
+
+                while (pred.right != null && pred.right != curr) {
+                    pred = pred.right;
+                }
+
+                // First time visiting curr
+                if (pred.right == null) {
+                    pred.right = curr;     // create temporary link
+                    curr = curr.left;
+                }
+
+                // Second time visiting curr
+                else {
+                    pred.right = null;    // remove temporary link
+                    count++;
+
+                    if (count == k)
+                        return curr.val;
+
+                    curr = curr.right;
+                }
+            }
         }
-        traverse(node.left,result);
-        result.add(node.val);
-        traverse(node.right,result);
-    } 
+
+        return -1;
+    }
 }
