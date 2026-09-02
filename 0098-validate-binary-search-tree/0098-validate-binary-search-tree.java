@@ -15,45 +15,15 @@
  */
 class Solution {
     public boolean isValidBST(TreeNode root) {
-        // TreeNode curr = root;
-        // while(curr!=null){
-        //    if(curr.left!=null){
-        //      if(curr.left.val<curr.val){
-        //         curr = curr.left;
-        //         return true;
-        //     }
-        //     else{
-        //         return false;
-        //     }
-        //    }
-
-        //    if(curr.right!=null){
-        //      if(curr.right.val>curr.val){
-        //         curr = curr.right;
-        //         return
-        //     }
-        //     else{
-        //         return false;
-        //     }
-        //    }
-        // }
-        // return false;
-        List<Integer> result = new ArrayList<>();
-        traverse(root, result);
-        for (int i = 0; i < result.size() - 1; i++) {
-            if (result.get(i) >= result.get(i + 1)) {
-                return false;
-            }
-        }
-        return true;
+        return isValidate(root, Long.MIN_VALUE, Long.MAX_VALUE);
     }
-
-    public void traverse(TreeNode node, List<Integer> result) {
-        if (node == null) {
-            return;
+    public boolean isValidate(TreeNode node, long min, long max){
+        if(node==null){
+            return true;
         }
-        traverse(node.left, result);
-        result.add(node.val);
-        traverse(node.right, result);
+        if(node.val>=max||node.val<=min){
+            return false;
+        }
+        return isValidate(node.left,min,node.val) && isValidate(node.right,node.val,max);
     }
 }
